@@ -1,6 +1,6 @@
-var year = 2000; // 2000년은 윤년으로 2월이 29일이다.
-var month = 2;
-var days = 0;
+let year = 2000; // 2000년은 윤년으로 2월이 29일이다.
+let month = 2;
+let days = 0;
 
 switch (month) {
   case 1:

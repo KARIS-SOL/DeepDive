@@ -5,7 +5,7 @@
 "My name is " + "Lee"; // "My name is Lee"
 
 // 할당 연산자
-var color = "red"; // "red"
+let color = "red"; // "red"
 
 // 비교 연산자
 3 >

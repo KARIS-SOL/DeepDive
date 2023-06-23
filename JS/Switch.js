@@ -1,6 +1,6 @@
 // 월을 영어로 변환한다. (11 → 'November')
-var month = 11;
-var monthName;
+let month = 11;
+let monthName;
 
 switch (month) {
   case 1:
