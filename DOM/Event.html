@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Welcome Hello</title>
+  </head>
+  <body>
+    <button onclick="alert('click')">클릭1</button>
+    <button onclick="sayHello()">클릭2</button>
+    <button id="btn">클릭3</button>
+    <button id="btn2">클릭4</button>
+    <script>
+      function sayHello() {
+        alert("Hello");
+      }
+
+      const el = document.getElementById("btn");
+      el.onclick = sayHello;
+
+      const el2 = document.getElementById("btn2");
+      //   el2.addEventListener("click", sayHello);
+      el2.addEventListener("click", () => {
+        alert("hi");
+      });
+    </script>
+  </body>
+</html>
