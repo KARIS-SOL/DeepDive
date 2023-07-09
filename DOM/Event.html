@@ -8,6 +8,7 @@
     <button onclick="sayHello()">클릭2</button>
     <button id="btn">클릭3</button>
     <button id="btn2">클릭4</button>
+    <input id="txt" type="text" />
     <script>
       function sayHello() {
         alert("Hello");
@@ -20,6 +21,11 @@
       //   el2.addEventListener("click", sayHello);
       el2.addEventListener("click", () => {
         alert("hi");
+      });
+
+      const input = document.getElementById("txt");
+      input.addEventListener("keyup", (event) => {
+        console.log(event.key);
       });
     </script>
   </body>
